@@ -1,9 +1,6 @@
 name: Build ZMK Firmware
 on: [push, pull_request, workflow_dispatch]
 
-container:
-  image: zmkfirmware/zmk-build-arm:stable
-
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
