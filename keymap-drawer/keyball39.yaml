@@ -269,7 +269,7 @@ layers:
   - OUT BLE
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - trans
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
