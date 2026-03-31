@@ -1,12 +1,4 @@
 
-#define DEF 0
-#define GAM 1
-#define NAV 4
-#define MOU 5
-#define SYM 6
-#define NUM 7
-#define FUN 8
-
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -15,6 +7,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <zmk-helpers/helper.h> 
 
+
+#define DEF 0
+#define GAM 1
+#define NAV 4
+#define MOU 5
+#define SYM 6
+#define NUM 7
+#define FUN 8
 
 // Combos
 
