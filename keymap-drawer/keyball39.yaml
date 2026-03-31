@@ -31,9 +31,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: RGUI, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: Snipe}
   - {t: '$$mdi:keyboard-return$$', h: Mouse}
   - {t: '$$mdi:keyboard-tab$$', h: Nav}
