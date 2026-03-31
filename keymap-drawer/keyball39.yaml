@@ -40,6 +40,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: Sym}
   - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Nav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
@@ -80,6 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Sym:
   - '{'
   - '&'
@@ -120,6 +122,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Num:
   - {t: '[', s: '{'}
   - {t: '7', s: '&'}
@@ -160,6 +163,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Fun:
   - F12
   - F7
@@ -200,6 +204,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Mouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
@@ -240,6 +245,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Snipe:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
@@ -280,3 +286,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
