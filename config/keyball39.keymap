@@ -50,7 +50,7 @@
 &kp TAB       &kp Q           &kp W          &kp E          &kp R            &trans             &trans             &trans         &trans   &trans 
 &mt LSHIFT G  &kp A           &kp S          &kp D          &kp F            &trans             &trans             &trans         &trans   &trans
 &kp LCTRL     &mt LEFT_ALT Z  &kp X          &kp C          &kp V            &trans             &trans             &trans         &trans   &trans
-&trans        &trans          &trans         &mt M ESC      &lt MOU RET      &lt GAN SPACE      &lt SYM BACKSPACE  &lt NUM SPACE           &lt FUN DEL
+&trans        &trans          &trans         &mt M ESC      &lt 7 RET        &lt 2 SPACE        &lt 4 BACKSPACE    &lt 5 SPACE             &lt 6 DEL
             >;
         };
 
@@ -101,7 +101,7 @@
             bindings = <
 &kp F12       &kp F7       &kp F8    &kp F9      &kp PRINTSCREEN    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   
 &kp F11       &kp F4       &kp F5    &kp F6      &kp SCROLLLOCK     &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4 
-&kp F10       &kp F1       &kp F2    &kp F3      &kp PAUSE_BREAK    &out OUT_BLE   &out OUT_USB   &trans         &bt BT_CLR_ALL  &bt BT_CLR      
+&kp F10       &kp F1       &kp F2    &kp F3      &kp PAUSE_BREAK    &out OUT_BLE   &out OUT_USB   &trans         &bt BT_CLR_ALL  &bt BT_CLR
 &bootloader   &trans       &trans    &to DEF     &to GAM            &kp MINUS      &trans         &trans                         &trans
             >;
         };
