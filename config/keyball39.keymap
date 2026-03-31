@@ -107,7 +107,7 @@
         };
 
 
-        Mou_layer {
+        mou_layer {
             label = "Mouse";
             bindings = <
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mt PRINTSCREEN LC(Y)     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)     
@@ -117,7 +117,7 @@
             >;
         };
 
-        Sni_layer {
+        sni_layer {
             label = "Snipe";
             bindings = <
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mt PRINTSCREEN LC(Y)     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)     
