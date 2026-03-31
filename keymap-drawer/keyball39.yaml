@@ -266,8 +266,8 @@ layers:
   - F2
   - F3
   - PAUSE BREAK
-  - OUT BLE
-  - OUT USB
+  - '&traqns'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - trans
   - {t: '$$mdi:transfer$$', type: trans}
