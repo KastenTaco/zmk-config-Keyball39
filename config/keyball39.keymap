@@ -9,14 +9,12 @@
 
 
 #define DEF 0
-#define GAM 1
-#define GAN 2
-#define SNI 3
-#define NAV 4
+#define NAV 1
+#define SYM 2
+#define NUM 3
+#define FUN 4
 #define MOU 5
-#define SYM 6
-#define NUM 7
-#define FUN 8
+#define SNI 6
 
 
 // Combos
