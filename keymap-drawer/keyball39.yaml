@@ -266,7 +266,7 @@ layers:
   - F2
   - F3
   - PAUSE BREAK
-  - '&traqns'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
