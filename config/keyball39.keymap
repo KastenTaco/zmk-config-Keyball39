@@ -222,10 +222,10 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
         fun_layer {
             label = "Fun";
             bindings = <
-&kp F12       &kp F7       &kp F8    &kp F9      &kp PSCRN          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4
-&kp F11       &kp F4       &kp F5    &kp F6      &kp SLCK           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4
-&kp F10       &kp F1       &kp F2    &kp F3      &kp PAUSE_BREAK    &trans         &trans         &trans         &bt BT_CLR_ALL  &bt BT_CLR
-&bootloader   &trans       &trans    &to 0       &to 1              &trans         &trans         &trans                         &trans
+&kp F12       &kp F7              &kp F8    &kp F9      &kp PSCRN          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4
+&kp F11       &kp F4              &kp F5    &kp F6      &kp SLCK           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4
+&kp F10       &kp F1              &kp F2    &kp F3      &kp PAUSE_BREAK    &trans         &trans         &trans         &bt BT_CLR_ALL  &bt BT_CLR
+&bootloader   &ext_power EP_TOG   &trans    &to 0       &to 1              &trans         &trans         &trans                         &trans
             >;
         };
 
