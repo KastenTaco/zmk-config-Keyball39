@@ -150,7 +150,7 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
             layers = <0>;
             timeout-ms = <750>; 
             precision = <10>; 
-      };
+    };
     #endif
 
     keymap {
