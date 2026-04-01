@@ -139,21 +139,19 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
 
 /* This is where you set your specific timings and thresholds */
 / {
+#if IS_ENABLED(CONFIG_ZMK_MOUSE)
+    /* Only build the listener if we are on the side with the trackball */
     trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&vtrackball>; // This must match the label in your shield's .overlay
-        
-        /* Auto-mouse / Layer-switching logic */
+        device = <&vtrackball>; 
         execute-on-tick = <20>;
-        
-        /* This replaces CONFIG_PMW3610_AUTOMOUSE_TIMEOUT_MS */
-        layers = <0>; // Layer to return to after timeout
+        layers = <0>;
         timeout-ms = <350>; 
-        
-        /* This replaces CONFIG_PMW3610_MOVEMENT_THRESHOLD */
         precision = <10>; 
     };
+#endif
 };
+
 
 
 / {
