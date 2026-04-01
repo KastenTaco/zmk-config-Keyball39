@@ -132,6 +132,29 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
         quick-tap-ms = <250>;
 };
 
+/* Trackball configuration using the new input-listener method */
+&pinctrl {
+    /* If you have specific pinctrl needs, they go here */
+};
+
+/* This is where you set your specific timings and thresholds */
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&vtrackball>; // This must match the label in your shield's .overlay
+        
+        /* Auto-mouse / Layer-switching logic */
+        execute-on-tick = <20>;
+        
+        /* This replaces CONFIG_PMW3610_AUTOMOUSE_TIMEOUT_MS */
+        layers = <0>; // Layer to return to after timeout
+        timeout-ms = <350>; 
+        
+        /* This replaces CONFIG_PMW3610_MOVEMENT_THRESHOLD */
+        precision = <10>; 
+    };
+};
+
 
 / {
   
