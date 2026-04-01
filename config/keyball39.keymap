@@ -137,8 +137,10 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
     /* If you have specific pinctrl needs, they go here */
 };
 
-/* This is where you set your specific timings and thresholds */
+
 / {
+
+/* This is where you set your specific timings and thresholds */
 #if IS_ENABLED(CONFIG_ZMK_MOUSE)
     /* Only build the listener if we are on the side with the trackball */
     trackball_listener {
@@ -153,9 +155,6 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
 };
 
 
-
-/ {
-  
     keymap {
         compatible = "zmk,keymap";
 
