@@ -272,8 +272,8 @@ layers:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
   - $$mdi:progress-download$$
-  - EP TOG
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP ON
+  - EP OFF
   - {t: QWRT, h: toggle}
   - {t: Game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
