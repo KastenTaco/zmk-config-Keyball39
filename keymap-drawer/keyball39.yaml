@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Mouse}
   - {t: '$$mdi:keyboard-tab$$', h: Nav}
   - {t: '$$mdi:backspace$$', h: Sym}
-  - '&lt SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Game:
   - $$mdi:keyboard-tab$$
