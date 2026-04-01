@@ -1,4 +1,4 @@
-j#define DEF 0
+#define DEF 0
 #define GAM 1
 #define GAN 2
 #define NAV 3
