@@ -146,7 +146,7 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
         device = <&vtrackball>; 
         execute-on-tick = <20>;
         layers = <0>;
-        timeout-ms = <350>; 
+        timeout-ms = <500>; 
         precision = <10>; 
     };
 #endif
