@@ -59,8 +59,8 @@
         /* This next line is key for sensitivity: */
         /* It requires a larger movement to trigger the layer switch */
         automouse-layer-threshold-ms = <250>; 
-	scroll-layers = <5>;
-	snipe-layers = <6>;
+	scroll-layers = <3>;
+	snipe-layers = <8>;
     };
 };
 
