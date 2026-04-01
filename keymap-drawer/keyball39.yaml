@@ -35,10 +35,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: Snipe}
-  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Mouse}
   - {t: '$$mdi:keyboard-tab$$', h: Nav}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
-  - {t: '$$mdi:backspace$$', h: Num}
+  - {t: '$$mdi:backspace$$', h: Sym}
+  - '&lt SPACE'
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Game:
   - $$mdi:keyboard-tab$$
