@@ -144,7 +144,7 @@ ZMK_COMBO(apos, &kp APOS, 18 19, DEF, COMBO_TERM_SLOW)
 &kp Q           &kp W           &kp E           &kp R             &kp T            &kp Y              &kp U              &kp I             &kp O            &kp P
 &kp A           &mt LEFT_ALT S  &mt LCTRL D     &mt LEFT_SHIFT F  &kp G            &kp H              &mt RSHIFT J       &mt RCTRL K       &mt RIGHT_ALT L  &mt SQT SEMI
 &mt LEFT_GUI Z  &kp X           &kp C           &kp V             &kp B            &kp N              &kp M              &kp COMMA         &kp DOT          &mt RIGHT_GUI FSLH
-&kp LCTRL       &kp LEFT_SHIFT  &kp LALT        &lt 8 ESC         &lt 7 SPACE      &lt 3 TAB          &lt 4 RET          &lt 5 BACKSPACE                    &lt 6 DEL
+&kp LCTRL       &kp LEFT_SHIFT  &kp LALT        &lt 8 ESC         &lt 7 RET        &lt 3 TAB          &lt 4 BACKSPACE    &lt SPACE                          &lt 6 DEL
 
             >;
         };
